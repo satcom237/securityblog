@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <a class="active" href="../index.html"><i class="fa fa-chevron-circle-left"></i></a>
+    <h2 id="class-title">CS 373 &nbsp;|&nbsp; DEFENSE AGAINST THE DARK ARTS</h2>
+    <h3 id="name">Sathya Ramanathan</h3>
+  </div>
+
+  <div class="blogcontent_page">
+    <h2 id="blog-heading_page">Network Security</h2>
+
+    <h3 id="blog-heading-date_page">4 August 2019</h3>
+
+      <p>When discussing the topic of cyber security, one of the most crucial components is the network. Though in the past we have looked at what malware is and what it can do, this week we focus on one of the gateways that can allow/prevent malware: network security. This type of security is becoming increasingly important as more and more sensitive data is being added to the internet. With a vast amount of private data passing through various channels, it is critical that the right people have access to it.</p>
+
+      <h3>Networks</h3>
+
+      <p>Before we dive into network security, lets discuss what a general “network” is and its components. A computer network is essentially a group of computer systems that are linked together via a communication channel. This allows all the computers on the network to share files and resources among each other. There are various types of networks, the common ones including: Local Area Networks (LAN), Personal Area Networks (PAN), and Wide Area Networks (WAN). As their respective names mention, they are all designed to facilitate communication with other computer systems that they are connected with. The Open Systems Interconnection, or OSI model, characterizes the communication functions of a general network. There are 7 main layers:
+        <ul>
+          <li>Application Layer</li>
+          <li>Presentation Layer</li>
+          <li>Session Layer</li>
+          <li>Transport Layer</li>
+          <li>Network Layer</li>
+          <li>Data Link Layer</li>
+          <li>Physical Layer</li>
+        </ul>
+      One could already guess what problems may arise, such as how a computer gets added to a network or who has access to the files being shared. These issues prompt the need for network security.</p>
+
+      <h3>Methods</h3>
+
+      <p>There are several methods of providing network security so that all users can share data safely. Common methods and related strategies include:
+        <ul>
+          <li>Firewalls – A security mechanism that monitors network traffic and allows/blocks specific traffic</li>
+          <li>Reputation – This includes the general beliefs/opinions pertaining to a website for example, dependent on the user’s choice</li>
+          <li>Honeynets – A network setup to intentionally invite attacks so one can learn attacker’s behaviors, used to improve network security</li>
+          <li>Intrusion Detection – Type of security software designed to alert the user if something malicious is spotted in their network</li>
+        </ul></p>
+
+      <h3>Attacks</h3>
+
+      <p>Now, lets focus on some specific network based attacks. One of the most common ones is the Man in the Middle attack, or MITM. This attack is where an attacker secretly and maliciously alters a communication between two parties who believe they are communicating with each other. </p>
+
+      <img src="../pictures/MITM.JPG" alt="MITM" width="530" height="270" border="3">
+
+      <p>Another type of attack is Denial of Service, or DoS. This attack is meant to shut down a network or machine by making it inaccessible to its users. Examples include buffer overflows, ICMP floods, and SYN floods. An additional type of DoS attack is the Distributed Denial of Service attack, or DDoS. This attack is attempted to disrupt normal traffic by overwhelming a network with a flood of internet traffic.</p>
+
+      <h3>Robustness Principle</h3>
+
+      <p>Jon Postel, and early American computer scientist, came up with a design guideline for software know as the “Robustness Principle”. This states that programmers should “assume that the network is filled with malevolent entities that will send in packets designed to have the worst possible effect.” In other words, software should be written to deal with any kind of error that may pop-up in the future. This assumption ultimately leads to a more thought-out design in all levels of software. To summarize in Postel’s own words, “be conservative in what you do, be liberal in what you accept from others.”</p>
+
+  </div>
+
+  <div class="bottombar">
+    <h2 id="footer-text">Oregon State University</h2>
+  </div>
+
+</body>
+</html>

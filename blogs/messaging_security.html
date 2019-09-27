@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <a class="active" href="../index.html"><i class="fa fa-chevron-circle-left"></i></a>
+    <h2 id="class-title">CS 373 &nbsp;|&nbsp; DEFENSE AGAINST THE DARK ARTS</h2>
+    <h3 id="name">Sathya Ramanathan</h3>
+  </div>
+
+  <div class="blogcontent_page">
+    <h2 id="blog-heading_page">Messaging Security</h2>
+
+    <h3 id="blog-heading-date_page">16 August 2019</h3>
+
+      <p>In the past, we have covered various methods of security. This week’s blog will discuss on the topic of messaging security. This basically refers to the practice of protecting the integrity of a message so that it can be read only by the intended recipient. This is most commonly done by methods of encryption. However, there are other components to message security that is overlooked.</p>
+
+      <h3>Spam</h3>
+
+      <p>When discussing about messaging security, a common term that comes up is “spam”. Spam is essentially junk email that is sent in bulk, typically for commercial purposes. They can also be malicious as much of it is sent by botnets and virus infected machines. It is estimated that about 80% of all emails sent in the world are spam. Other types of spam may take the form of: instant messaging, ads, fax, and social media spam.</p>
+
+      <h3>Methods of Detection</h3>
+
+      <p>Now that we have covered the basics of spam, how can it be detected? The two common methods are: Rule-based and Bayesian.
+        <ul>
+          <li>Rule-based: This is the classic approach in detection used in many security practices. As the name mentions, rules are placed in the forms of fixed strings and are then used to match the strings used in email spam. It can also help identify if an email contains any known-harmful attachments or URL’s. A tool that can be used to match strings/regular expressions is: Regex Coach.</li>
+
+          <img src="../pictures/regex.jpg" alt="regex" width="300" height="350" border="3">
+
+          <li>Bayesian: The Bayesian approach depends more on the use of statistical tactics to identify spam; rather than with implemented rules. This method is much more efficient especially on a larger scale where placing rules may not cover as much ground.</li>
+        </ul></p>
+
+
+        <p>As always, another method of detection is manually by the user. This involves being aware of what spam is and the forms it can take. The common attributes of spam mail one must know are:
+          <ul>
+            <li>There is no recipient</li>
+            <li>Subject refers to a sender</li>
+            <li>Misspelled words and/or incorrect grammar</li>
+            <li>Malicious looking links/URL’s</li>
+            <li>Sender is unknown</li>
+          </ul></p>
+
+      <h3>Blocking Spam</h3>
+
+      <p>Now that the spam has been identified, how can it be blocked and ultimately avoided? Great news is that most spam is already filtered out and blocked by email software – so the user doesn’t need to do much. Essentially all email providers have a folder called “Spam” for this very purpose. With the help of IP’s, most spam is already identified on the network level before it even reaches one’s inbox. This is possible due to Real-time blackhole lists, or RBL’s. These lists dynamically hold IP addresses of spam sources.</p>
+
+      <img src="../pictures/spamf.jpg" alt="spamf" width="500" height="250" border="3">
+
+      <p>In conclusion, spam is an important area of focus when it comes down to messaging security. Spam can contain malicious content that can be detrimental to a user if accessed. By using secure products and being aware of Spam in general - it can significantly reduce the chances of being harmed.</p>
+
+  </div>
+
+  <div class="bottombar">
+    <h2 id="footer-text">Oregon State University</h2>
+  </div>
+
+</body>
+</html>

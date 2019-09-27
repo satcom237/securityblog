@@ -1,0 +1,94 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #ebebeb;
+}
+
+mark {
+  background-color: #c7c7c7;
+  border-style: inset;
+}
+
+.topbar a {
+  text-decoration: none;
+  float: left;
+  text-align: center;
+  width: 5%;
+  padding: 12.8px 0;
+  padding-left: 7px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.topbar a:hover {
+  color: #f59342;
+}
+
+.topbar {
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  background-color: #262626;
+  color: White;
+}
+
+#class-title {
+  float: left;
+  padding-left: 20px;
+  color: #f59342;
+}
+
+#name {
+  float: right;
+  padding-right: 20px;
+  padding-top: 4.5px;
+}
+
+.maincontent {
+  padding-top: 120px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.maincontent ol{
+  display: inline-block;
+  text-align: left;
+  line-height: 25px;
+  margin-top: -7px;
+}
+
+.maincontent a {
+  text-decoration: none;
+  color: #3bb4ff;
+}
+
+.maincontent a:hover {
+  color: #3bb4ff;
+  border-bottom: 1.5px solid #3bb4ff;
+}
+
+.blogcontent_page {
+  width: 550px;
+  overflow: auto;
+  margin: 0 auto;
+  line-height: 25px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.bottombar {
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #262626;
+  color: #f59342;
+  text-align: center;
+}

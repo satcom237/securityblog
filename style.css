@@ -73,6 +73,10 @@ mark {
   border-bottom: 1.5px solid #3bb4ff;
 }
 
+#blog-heading {
+  text-decoration: underline;
+}
+
 .blogcontent_page {
   width: 550px;
   overflow: auto;
